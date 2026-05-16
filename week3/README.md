@@ -70,3 +70,13 @@ waypoint görevinin yer aldığı bu ekte irtifa alnıması ilk waypoint olarak 
 
 
 ardından 5. waypoint olarak kalkış yaptığı yere gelir ve inişe geçer
+
+
+
+
+
+
+
+
+
+Karşılaşılan ve oyalayan tek hata "link 1 down" hatası oldu tam olarak neden olduğunu anlamasam da iki ihtimal olduğunu düşünüyorum, ya host da ayru olarak kurulan ardupşlot sebebiyle bir port sıkıntısı meydana geldi (docker içinde çalıştığımız için pek olası değil, docker kendi simülasyonunu kullanıyor ve ayrı olarak ardupilot açmamıştım) ya da gazebo başlatıldığında direkt simülasyon başlatılmadan ardupilot çalıştırıldı. bunun harici hata ile karşılaşılmadı. sistemde en uzun oyalanılan yerlerden biri bu hata diğeri de python kodlarının anlaşılması kısmı oldu.
